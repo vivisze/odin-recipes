@@ -1,0 +1,32 @@
+body {
+    text-align: center;
+}
+
+.headline {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul, p, ol {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button {
+    background-color: rgb(39, 168, 219);
+}
+
+h1 {
+    background-color: rgb(73, 73, 73);
+    color: white;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
