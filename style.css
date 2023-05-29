@@ -1,5 +1,7 @@
 body {
-    text-align: center;
+    margin: auto;
+    background-color: rgb(41, 41, 41);
+    max-width: 1024px;
 }
 
 .headline {
@@ -7,23 +9,37 @@ body {
 }
 
 ul, p, ol {
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 0px; 
 }
 
 a {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 24px;
 }
 
-button {
-    background-color: rgb(39, 168, 219);
+.button {
+    display: block;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 100px;
+    border: 5px;
+    border-style: solid;
+    background-color: rgb(38, 45, 49);
+    color: whitesmoke;
+    border-color: black;
+
 }
 
 h1 {
-    background-color: rgb(73, 73, 73);
+    background-color: rgb(75, 75, 75);
     color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
 }
 
 img {
